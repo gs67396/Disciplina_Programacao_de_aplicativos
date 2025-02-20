@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px;
+    margin-left:  auto;
+    margin-right: auto;
+    padding: 20 px;
+}
+
+.container-texto {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container-comic {
+
+    background-color: #022a30;
+    color: white;
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-imagem {
+    display: block;
+    display: flex;
+
+}
+.wrapper img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}

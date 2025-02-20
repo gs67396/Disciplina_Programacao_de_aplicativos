@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(69,76,210)
+}
+
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.amarelo {
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(210,194,69);
+    box-sizing: border-box;
+
+}
+
+.flexivel {
+    display: flex;
+}
