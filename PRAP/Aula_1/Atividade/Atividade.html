@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<style>
+  table,
+  td,
+  th {
+    border: 1px solid black;
+  }
+
+  h1 {
+    color: rgb(99, 15, 209);
+  }
+</style> <!-- 'style' usado para definir como certos elementos deveriam ser Renderizado de certa forma  -->
+
+<body>
+  <h1>bem vindo ao meu site!</h1>
+  <h2>Sobre mim</h2>
+  <p>
+    Meu nome é <strong>Gabriel</strong><!-- 'strong' Põe o texto em negrito ,usado para definir texto importante -->
+    tenho 16 anos, faço aniversário em 9 de março, no mesmo dia do aniversário de Joinville, a cidade onde eu moro,<br>
+    estou no ensino médio estudando no <span
+      style="color:green">SESI</span><!-- 'span' Usado para marcar uma partedo texto,nesse caso e usado para mudar a cor do texto-->
+    no curso de desenvolvimento de sistemas,
+    antes disso eu fiz meu ensino fundamental na rede <span style="color:blue">adventista</span>.</p>
+  <img src="../Imagens/bairros-de-joinville.jpeg" width="500px" height="auto"><br>
+  <!-- 'br' Define um pulo para a proxima linha -->
+  <a
+    href="https://www.vivareal.com.br/blog/cidades/bairros-mais-atrativos-em-joinville-sc-com-apartamentos-disponiveis/">
+    fonte da imagem</a> <!-- 'a' define um hyperlink que e usado para redirecionar ate outra pagina -->
+  <hr> <!--'hr'  define uma linha horizontal  no site, usado para indicar uma mudança no conteudo -->
+  <h2> Cidades que eu ja visitei </h2>
+  <ul> <!-- 'ul' Define o começo de uma lista desordenada -->
+    <li>Curitiba</li> <!-- 'li' Define um item de uma lista -->
+    <li>Itapema</li>
+    <li>Porto Alegre </li>
+    <li>Sinop</li>
+  </ul>
+  <hr>
+  <h2> Tabela das minhas horas de sono esta semana </h2>
+  <table> <!-- 'table' Define uma tabela -->
+    <thead> <!-- 'thead' usado para definir o cabeçalho de uma tabela -->
+      <tr> <!-- 'tr' define uma linha em uma tabela -->
+        <th>Dia</th> <!-- 'th' define o topico de uma coluna de celulas em uma tabela -->
+        <th>Horas de sono</th>
+      </tr>
+    </thead>
+    <tbody> <!-- 'tbody' define o corpo de uma tabela -->
+      <tr>
+        <td>Segunda</td> <!-- 'td' define uma celula em uma coluna -->
+        <td>4h</td>
+      </tr>
+      <tr>
+        <td>Terça</td>
+        <td>6h</td>
+      </tr>
+      <tr>
+        <td>quarta</td>
+        <td>5h</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>15h</td>
+      </tr>
+    </tfoot> <!-- 'tfoot' define o radape de uma coluna -->
+  </table>
+  <hr>
+  <h2>Outras coisas</h2>
+  <button type="button" onclick="alert('você apertou um botão!')">Me aperte</button>
+  <!-- 'button' cria um botão e define seus efeitos -->
+  <p>
+    <ruby>
+      <bdo dir="rtl">Da direita pra esquerda</bdo> <!-- 'bdo' muda a direção atual do texto -->
+      <rt>Leia da direita pra esquerda</rt>
+    </ruby> <!-- 'ruby' Define uma anotação em cima de texto, usado em linguas asiáticas para indicar pronuncia -->
+  </p>
+  <p>
+    <textarea>Escreva aqui</textarea> <!-- 'texarea' define uma caixa de input de texto -->
+  </p>
+  <p>
+    <mark> Texto marcado </mark> <!-- 'mark' Define texto marcado -->
+  </p>
+  <video controls >
+    <source src="../Mídia/Video.mp4 type="video/mp4"> <!-- 'video' Define um video na-->
+  </video>
+  
+  <dialog open> <img src="../Imagens/th (1).jpg"> <br> Imagem de gato </dialog> <!-- 'dialog' Adiciona uma caixa paralela  -->
+  <hr>
+  <p>
+    <a href="https://www.w3schools.com/tags/"> fonte das tags HTML</a>
+  </p>
+
+</html>
+<!-- Tags usadas (decididas pelo proffesor) 'a' 'hr' 'ul' 'li' 'br' 'strong' 'span' 'table' 'th' 'td' 'thead 'tbody' -->
+<!-- Tags escolhidas por mim 'style' 'tr' 'tfoot' 'button' 'bdo' 'dialog' 'mark' 'ruby' 'textarea' 'video' -->
